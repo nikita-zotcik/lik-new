@@ -6,9 +6,13 @@ const cors = require('cors');
 
 app.use('/static', express.static(__dirname + '/build/static'));
 
+// app.get('/', (req, res) => {
+//     res.sendFile(`${__dirname}/build/index.html`)
+// });
 app.get('/', (req, res) => {
-    res.sendFile(`${__dirname}/build/index.html`)
+    res.send('WOWOWOWOWO')
 });
+
 
 
 const port = process.env.PORT || 1337;
