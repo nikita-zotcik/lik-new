@@ -1,0 +1,4 @@
+{
+    "searchAPI": "http://localhost:3001/searchAPI",
+    "detailAPI": "http://localhost:3001/company"
+}

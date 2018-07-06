@@ -1,12 +1,17 @@
-var http = require('http');
 const express = require('express');
 const app = express();
+const axios = require('axios');
+const cors = require('cors');
+
+
+app.use('/static', express.static(__dirname + '/build/static'));
 
 app.get('/', (req, res) => {
-    res.send('HIIIII')
+    res.sendFile(`${__dirname}/build/index.html`)
 });
 
-var port = process.env.PORT || 1337;
+
+const port = process.env.PORT || 1337;
 
 app.listen(port, (err) => {
     if (err) {

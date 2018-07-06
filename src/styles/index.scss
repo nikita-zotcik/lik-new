@@ -1,0 +1,251 @@
+@font-face {
+  font-family: Montserrat; 
+  src: url(./font/Montserrat-Regular.ttf); 
+
+ }
+%bg-image {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+
+  .compan-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    .compan-logo {
+      color: #353745;
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    .login {
+      .login-url {
+        color: #ff6b36
+      }
+    }
+  }
+
+  .Fill-1 {
+    max-height: 325px;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+  }
+
+  .text-align-senter {
+    text-align: center;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+    .menu, .container-main {
+      max-width: 1200px;
+    }
+
+    .container-main {
+      width: 100%;
+      height: 100%;
+      max-height: 680px;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      
+      .containers {
+        background-color: #ffffff;
+        box-shadow: 0 10px 14px 0 rgba(69, 73, 91, 0.08);
+        min-height: 620px;
+      }
+    }
+
+    /* Menu panel components styles - Structure and layout files.
+    ========================================================================== */
+    @import "components/menu.scss"; /* Left panel components styles - Structure and layout files.
+    ========================================================================== */
+    @import "components/left-panel.scss"; /* Right panel components styles - Structure and layout files.
+    ========================================================================== */
+    @import "components/right-panel.scss";
+
+    .img {
+      width: 118px;
+      height: 118px;
+      border-radius: 100px;
+      margin-top: 50px;
+    }
+
+    .rocket-icon {
+      @extend %bg-image;
+      background-image: url("/icons/svg-rocket-icon-2.svg");
+    }
+
+    .divider {
+      height: 35px;
+      width: 1px;
+      background-color: #464855;
+      margin: 0 7px;
+    }
+
+    .divider-line {
+      border: solid 1px #464855;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1035px) {
+  .menu {
+     display: none !important;
+  }
+
+  .left-panel {
+    margin:10px;
+    height: 100%;
+    min-width: 760px;
+  }
+  .left-panel-block {
+    max-height: 100% !important;
+  }
+  .container-inp {
+     flex-wrap: wrap;
+  }
+
+  .left-panel-container-content {
+    margin-bottom: 30px !important;
+  }
+  .right-panel {
+    margin:10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .left-panel {
+    margin:0 10px;
+    padding-bottom: 10px;
+    min-width: 600px;
+  }
+
+  .right-panel {
+    margin:10px;
+
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .left-panel {
+    max-height: 100% !important;
+    height: 100%;
+    width: 100%;
+    min-width: 400px;
+  }
+
+}
+
+@media screen and (max-width: 490px) {
+  .main {
+    margin-top: 30px !important;
+  }
+
+  .left-panel-container-body {
+    padding: 10px 0 60px 0px !important;
+  }
+
+  .left-panel-block {
+    padding: 70px 30px 20px 30px !important;
+  }
+
+  .left-panel-payment-info {
+    padding: 20px 0px 0px 30px !important;
+  }
+
+  .left-panel-container-logo-container {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100% !important;
+  }
+  
+  .search-container {
+
+    .button {
+      width: 100px !important;
+
+    }
+
+    .search-value{ 
+      width: 50px !important;
+    }
+  }
+  .container-inp {
+    margin: 0px !important;
+  }
+
+}
+
+@media screen and (max-width: 415px) {
+  .left-panel-block {
+    padding: 70px 20px 0px 20px !important;
+    flex-wrap: wrap;
+  }
+
+  .left-panel-container-body-content {
+    padding-left: 0px !important;
+  }
+
+  .right-panel {
+    padding: 0 10px;
+  }
+  .left-panel {
+    min-width: 100px;
+
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .left-panel-block {
+    padding: 40px 20px 0px 20px !important;
+  }
+
+  // .left-panel {
+  //   min-width: 100px;
+
+  // }
+
+  .container-button {
+    .button {
+      width: 110px !important;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+}
+
+/* Simple components styles - Structure and layout files.
+========================================================================== */
+
+@import "components/smpl-components.scss";

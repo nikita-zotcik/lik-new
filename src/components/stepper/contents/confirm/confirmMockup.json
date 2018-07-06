@@ -1,0 +1,28 @@
+{
+    "data_software": {
+        "content": {
+            "container_header": "Hvilket regnskabsprogram bruger du Maximilian?",
+            "header_content": "Sæt din inddrivelse på automatpilot ved at connecte dit regnskabsprogram. Det tager under 2 minutter at opsætte integreationen og kræver ingen teknisk kunnen."
+        }
+    },
+    "data_integration": {
+        "data": [
+            {
+                "name": "step 1",
+                "value": "test test 1"
+            },
+            {
+                "name": "step 2",
+                "value": "test test 2"
+            },
+            {
+                "name": "step 3",
+                "value": "test test 3"
+            }
+        ],
+        "content": {
+            "container_header": "Opsæt Dinero integrationen",
+            "header_content": " Du skal have en Dineo Pro account for at kunne opsætte integrationen. Se nedenstående video guide, ring til vores hotline "
+        }
+    }
+}
