@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.sendFile(`${__dirname}/build/index.html`)
+    res.send('HIIIII')
 });
 
 var port = process.env.PORT || 1337;
