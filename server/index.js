@@ -10,7 +10,7 @@ const cors = require('cors');
 //     res.sendFile(`${__dirname}/build/index.html`)
 // });
 app.get('/', (req, res) => {
-    res.send('WOWOWOWOWO')
+    res.send('HIHIHIHIHIHIHIHIH')
 });
 
 
