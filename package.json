@@ -18,11 +18,15 @@
         "react-table": "^6.8.6",
         "sass-loader": "^7.0.3"
     },
+    "engines": {
+        "node": ">=6.9.1"
+    },
     "scripts": {
+        "start": "node index.js",
         "build-css": "node-sass-chokidar src/ -o src/",
         "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
         "start-js": "react-scripts start && node server/index.js",
-        "start": "npm-run-all -p watch-css start-js",
+        "start-test": "npm-run-all -p watch-css start-js",
         "build-js": "react-scripts build",
         "build": "npm-run-all build-css build-js",
         "test": "react-scripts test --env=jsdom",

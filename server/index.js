@@ -4,7 +4,7 @@ const axios = require('axios');
 const cors = require('cors');
 
 
-app.use('/static', express.static(__dirname + '/build/static'));
+// app.use('/static', express.static(__dirname + '/build/static'));
 
 // app.get('/', (req, res) => {
 //     res.sendFile(`${__dirname}/build/index.html`)
