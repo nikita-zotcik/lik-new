@@ -1,0 +1,79 @@
+{
+    "data_payment": {
+        "search": [
+            {
+                "id": 1,
+                "label": "YouFuture.net (57632356)",
+                "registrationName": "57632356"
+            },
+            {
+                "id": 2,
+                "label": "Youfly Simulator (25396103)",
+                "registrationName": "25396103"
+            },
+            {
+                "id": 3,
+                "label": "YOUFLY INTERNATIONAL ApS (34800146)",
+                "registrationName": "34800146"
+            },
+            {
+                "id": 4,
+                "label": "Youfly A S (39148536)",
+                "registrationName": "39148536"
+            },
+            {
+                "id": 5,
+                "label": "YouFab IVS (37323446)",
+                "registrationName": "37323446"
+            },
+            {
+                "id": 6,
+                "label": "Youfront ApS (38765647)",
+                "registrationName": "38765647"
+            },
+            {
+                "id": 7,
+                "label": "YOUFLY ApS (32291724)",
+                "registrationName": "32291724"
+            },
+            {
+                "id": 8,
+                "label": "YOUFIRM IVS (36406208)",
+                "registrationName": "36406208"
+            },
+            {
+                "id": 9,
+                "label": "Youfone IVS (37615447)",
+                "registrationName": "37615447"
+            },
+            {
+                "id": 10,
+                "label": "YOUFLY ApS UNDER STIFTELSE (32141676)",
+                "registrationName": "32141676"
+            }
+        ],
+        "content": {
+            "container_header": " Sæt din inddrivelse på autopilot & få hurtigere betaling",
+            "header_content": " Opret en GRATIS konto hos Likvido og automatiser din rykkerproces. Betaler skyldner ikke efter en række venlige påmindelser og rykkere kan du med et klik sende sagen videre til vores no-cure-no-pay inkassoløsning."
+        }
+    },
+    "data_account": {
+        "content": {
+            "container_header": " Udfyld dine kontooplysninger",
+            "header_content": "  Vi skal bruge nogle få oplysninger om dig og din virksomhed for at kunne oprette din konto. Vi skal bruge din mail og telefonnummer for at holde dig orienteret om dine sager."
+        }
+    },
+    "data_details": {
+        "content": {
+            "container_header": "Bekræft venligst dine firmaoplysninger",
+            "header_content": "Vi skal bruge nogle få oplysninger om dig og din virksomhed for at kunne oprette din konto. Vi skal bruge din mail og telefonnummer for at holde dig orienteret om dine sager."
+        }
+    },
+    "data_greeting": {
+        "content": {
+            "container_header": "Velkommen til Likvido Maximilian",
+            "header_content": "Du har nu oprettet en ny konto hos Likvido. Du bør inden for få minutter modtage en bekræftelsesmail. For at komme i gang med at bruge system skal du tilknytte dit regnskabsprogram.",
+            "img": ""
+        }
+    }
+}
