@@ -1,4 +1,0 @@
-{
-    "searchAPI": "http://localhost:1337/companytype",
-    "detailAPI": "http://localhost:1337/company"
-}
